@@ -1,2 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+
+#titre {
+    font-family: "Roboto";
+    text-align: center;
+    font-size: 50px;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid red;
+    padding: 20px;
+    font-size: 20px;
+    background-color:grey;
+    color: white;
+}
+
+li {
+    font-family:"";
+    font-size: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+li:hover{
+    transition: all 0.5s ease;
+    color: yellow;
+    text-shadow: 1px 10px 0px 0px;
+}
